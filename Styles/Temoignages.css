@@ -20,7 +20,7 @@ header {
     flex-direction: row;
     width: 100%;
     height: auto;
-    gap: 10em;
+    gap: 7em;
 }
 
 .ho {
@@ -30,7 +30,8 @@ header {
 
 .loghaut {
     width: 7em;
-    border-radius: 2em;
+    border-radius: 1em;
+    border-color:aqua;
 }
 
 .haurloge {
@@ -57,7 +58,7 @@ nav ul {
     height: auto;
     align-items: center;
     justify-content: left;
-    gap: 12rem;
+    gap: 9rem;
     font-size: 1em;
     padding-left: 5em;
     margin-top: 2rem;
@@ -75,6 +76,12 @@ li a {
     border-radius: 1em;
     border-style: double;
     border-color: black;
+   width:10em;
+   height:2em;
+}
+.recherche{
+    display: flex;
+    align-items: center;
 }
 
 .batiment {
@@ -88,8 +95,7 @@ li a {
     flex-direction: column;
     background-color: aqua;
     width: 100%;
-   
-
+   padding-bottom: 2rem;
 }
 
 .card {
@@ -205,6 +211,8 @@ button {
 }
 
 .txt{
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 800;
     justify-content: center;
+    justify-self: center;
 }
