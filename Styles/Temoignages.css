@@ -15,7 +15,6 @@ header {
 }
 
 .head {
-   
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -29,9 +28,18 @@ header {
 }
 
 .loghaut {
-    width: 7em;
+    width: 5em;
+    height: 3em;
     border-radius: 1em;
     border-color:aqua;
+    margin-top: 3rem;
+}
+
+.logoc{
+    width:10vw;
+    height:12vh;
+    font-size: 1em;
+
 }
 
 .haurloge {
@@ -52,7 +60,9 @@ header {
     font-family: 'Times New Roman', Times, serif;
 }
 
-nav ul {
+.menu-toggle{display:none;}
+
+ ul {
     display: flex;
     flex-direction: row;
     height: auto;
@@ -60,9 +70,19 @@ nav ul {
     justify-content: left;
     gap: 9rem;
     font-size: 1em;
-    padding-left: 5em;
-    margin-top: 2rem;
+    padding-left: 10em;
     background-color: #09e2fa;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    gap: 7em;
+    margin-bottom: -1rem;
+    position: sticky;
+    top: 0; 
 }
 
 li,
